@@ -1,0 +1,407 @@
+/* -------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+ :root {
+    --Pink: hsl(322, 100%, 66%);
+    --Light-Pink: hsl(321, 100%, 78%);
+    --Light-Red: hsl(0, 100%, 63%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Very-Pale-Blue: hsl(207, 100%, 98%);
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: var(--Very-Dark-Cyan);
+}
+
+p {
+    line-height: 1.6;
+}
+
+.start {
+    background-color: var(--Pink);
+    color: var(--Very-Pale-Blue);
+    padding: 15px 45px;
+    border-radius: 30px;
+    font-weight: 600;
+    box-shadow: 1px 2px 8px var(--Light-Pink);
+}
+
+.start:hover {
+    background-color: var(--Light-Pink);
+}
+
+.community,
+.same,
+.build,
+footer {
+    padding: 120px 0;
+}
+
+.same {
+    position: relative;
+}
+
+.same .content {
+    float: left;
+    width: 50%;
+}
+
+.same .content h2 {
+    margin: 60px 0 15px 0;
+    font-size: 1.8rem;
+}
+
+.same .content p {
+    color: var(--Very-Dark-Cyan);
+    font-weight: 400;
+    font-size: 16px;
+    width: 90%;
+}
+
+.same .img {
+    float: right;
+    width: 50%;
+}
+
+.same .img img {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+}
+
+
+/* -------------------------------------------- */
+
+header {
+    padding: 30px 0 0 0;
+    min-height: 100vh;
+    position: relative;
+}
+
+header .container {
+    height: 100%;
+}
+
+.navbar .logo {
+    float: left;
+    width: 50%;
+}
+
+.navbar .logo img {
+    width: 150px;
+    display: block;
+}
+
+.navbar .link {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+.navbar .link a {
+    color: var(--Pink);
+    border: 1px solid var(--Pink);
+    border-radius: 20px;
+    display: inline-block;
+    padding: 5px 15px;
+    box-shadow: 1px 2px 8px var(--Light-Pink);
+}
+
+.navbar .link a:hover {
+    color: var(--Light-Pink);
+    border: 1px solid var(--Light-Pink);
+    cursor: pointer;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text h1 {
+    font-size: 2.5rem;
+}
+
+.text p {
+    width: 50%;
+    margin: 25px auto 50px auto;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--Very-Dark-Cyan);
+}
+
+
+/* -------------------------------------------- */
+
+.community .mockup {
+    display: block;
+    width: 74%;
+    margin: auto;
+}
+
+.community .data {
+    margin-top: 80px;
+}
+
+.community .item {
+    width: 50%;
+    text-align: center;
+}
+
+.community .item p:nth-child(2) {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--Very-Dark-Cyan);
+}
+
+.community .item p:nth-child(3) {
+    color: gray;
+    font-weight: 400;
+}
+
+.community .item1 {
+    float: left;
+}
+
+.community .item2 {
+    float: right;
+}
+
+.community .icon {
+    width: 35px;
+    text-align: right;
+    margin-right: 120px;
+}
+
+
+/* -------------------------------------------- */
+
+.growth,
+.users {
+    background-color: #F6FBFF;
+}
+
+.conversation .content {
+    float: right;
+}
+
+.conversation .img {
+    float: left;
+}
+
+.conversation .img img {
+    margin: 0;
+}
+
+
+/* -------------------------------------------- */
+
+.build {
+    text-align: center;
+}
+
+.build p {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+
+/* -------------------------------------------- */
+
+footer {
+    background-color: var(--Very-Dark-Cyan);
+    color: var(--Very-Pale-Blue);
+}
+
+footer .left {
+    float: left;
+    width: 50%;
+}
+
+footer .right {
+    float: right;
+    width: 50%;
+}
+
+footer img {
+    width: 150px;
+}
+
+footer .left p:nth-child(2) {
+    margin: 20px 0;
+    width: 60%;
+}
+
+footer p img {
+    width: 15px;
+    margin-right: 10px;
+}
+
+footer .social {
+    margin-top: 50px;
+}
+
+footer .social i {
+    font-size: 1.8rem;
+    margin-right: 15px;
+}
+
+footer .social i:hover {
+    color: var(--Light-Pink);
+    cursor: pointer;
+}
+
+footer .right p {
+    width: 70%;
+}
+
+footer .right p:nth-child(1) {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+footer .right p:nth-child(2) {
+    margin: 15px 0 20px 0;
+}
+
+footer .right input[type="email"] {
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 220px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+footer .right input[type="submit"] {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: var(--Pink);
+    color: var(--Very-Pale-Blue);
+}
+
+footer .right input[type="submit"]:hover {
+    background-color: var(--Light-Pink);
+    cursor: pointer;
+}
+
+
+/* -------------------------------------------- */
+
+@media screen and (max-width:992px) {
+    .text h1 {
+        font-size: 2rem;
+    }
+    .text p {
+        width: 80%
+    }
+    .same .content h2 {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .community,
+    .same,
+    .build,
+    footer {
+        padding: 80px 0;
+    }
+    .navbar .logo img {
+        width: 120px;
+    }
+    .navbar .link a {
+        border: .5px solid var(--Pink);
+        padding: 4px 10px;
+        box-shadow: 1px 1px 4px var(--Light-Pink);
+    }
+    .text h1 {
+        font-size: 1.5rem;
+    }
+    .text p {
+        width: 100%
+    }
+    .community .mockup {
+        width: 100%;
+    }
+    .community .data {
+        margin-top: 80px;
+    }
+    .community .item1 {
+        margin-bottom: 80px;
+    }
+    .community .item1,
+    .community .item2 {
+        width: 100%;
+    }
+    .same .content {
+        float: right;
+        width: 100%;
+        text-align: center;
+    }
+    .same .content h2 {
+        margin: 30px 0 15px 0;
+        font-size: 1.3rem;
+    }
+    .same .content p {
+        width: 100%;
+    }
+    .same .img {
+        float: left;
+        width: 100%;
+    }
+    .same .img img {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+    }
+    .build p {
+        font-size: 1.6rem;
+    }
+    footer .left {
+        margin-bottom: 50px;
+    }
+    footer .right,
+    footer .left {
+        width: 100%;
+    }
+    footer .left p:nth-child(2),
+    footer .right p {
+        width: 100%;
+    }
+}
